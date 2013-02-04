@@ -1,0 +1,218 @@
+/*
+- Nie posiada³em tych fontów, wiêc zdecydowa³em siê na pierwsze z brzegu
+- Szczerze powiedziawszy zastanawia³em siê nad przyciskami. Mogê je bezproblemu wygenerowaæ za pomoc¹ css, ale problemem stanie siê IE (musia³ bym zastosowaæ filtry na buttonach). To by³ g³ówny powód zaimplementowania ich jako obrazki (w tym wypadku gif). Kolejnym problemem jest to, ¿e nie dosta³em w tym przyk³adzie wygl¹du "najechanych" i "aktywnych" buttonów.
+- Unika³em, gdzie tylko mog³em stosowania filtrów niedzia³aj¹cych w IE
+*/
+html {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #ffffff;
+	font-size: 11px;
+	margin: 0 auto;
+	display:block;
+}
+a img {
+	border: 0;
+}
+.head{
+	width: 960px;
+	min-height: 108px;
+	display: block;
+}
+.logo{
+	padding: 15px;
+	float: left;
+}
+.palka{
+	height: 80px;
+	width: 0;
+	border-left: 1px #e5e5e5 solid;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.program{
+	font-size: 36px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 25px;
+}
+.zaloguj{
+	font-size: 26px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 25px;
+}
+.jesli{
+	float: right;
+	text-align: right;
+	padding-top: 1px;
+}
+.szukaj{
+	width: 400px;
+	float: right;
+	margin-top: 20px;
+}
+.szukajb{
+	float: right;
+	background:url(../img/przyciski/szukaj.gif);
+	margin-left: 5px;
+	padding: 0;
+	border: 0;
+	height: 21px;
+	width: 68px;
+}
+.szukajb:hover{
+	cursor: pointer;
+}
+.reklama{
+	display: block;
+	width: auto;
+	border-top: 1px #e5e5e5 solid;
+	border-bottom: 1px #e5e5e5 solid;
+}
+.menu1{
+	width: 960px;
+	display: block;
+	float: right;
+	margin-top: 20px;
+}
+.menu1 a{
+	float: right;
+	margin-left: 6px;
+}
+.teksty{
+	display: block;
+	float: left;
+	text-align: left;
+}
+.klaps{
+	display: block;
+	float: right;
+	margin-top: 40px;
+	margin-right: 46px;
+	z-index: 0;
+}
+.box{
+	display: block;
+	width:680px;
+	min-height:740px;
+	float: left;
+}
+.film{
+	padding-bottom: 20px;
+	display: block;
+	width:170px;
+	height:230px;
+	float: left;
+}
+.gora{
+	margin-top:-100px;
+	display: block;
+	float: right;
+	z-index: 1;
+}
+.dol{
+	display: block;
+	float: right;
+	z-index: 1;
+	margin-top: -1px;
+}
+.menu2{
+	background: #ffffff;
+	margin-top:-90px;
+	border-left: 1px #d3d3d3 solid;
+	border-right: 1px #d3d3d3 solid;
+	display: block;
+	width:235px;
+	float: right;
+	z-index: 1;
+}
+.menu2 a{
+	display: block;
+	font-weight: bold;
+	padding: 8px 0px 10px 20px;
+	font-size: 20px;
+	color: #094790;
+}
+.menu2 a:hover{
+	text-align: inherit;
+	padding: 8px 0px 10px 35px;
+	display: block;
+	color: #ffffff;
+	margin-left:-15px;
+	border:0px;
+	height:100%;
+	background:url(../img/menu_ruch.png) no-repeat;
+	cursor: pointer;
+}
+.linia{
+	float: left;
+	display: block;
+	width: 960px;
+	margin-top: -10px;
+	border-top: 1px #e5e5e5 solid;
+}
+.stopka{
+	float: left;
+	padding: 10px;
+	display: block;
+	width: 960px;
+}
+.stopka a{
+	font:11px Arial;
+	text-decoration: none;
+	color: black;
+	float: left;
+	display: block;
+}
+.palka2{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 12px;
+	border-left: 1px #e5e5e5 solid;
+}
+.pagination {
+	width: 680px;
+	float:left;
+    text-align: center;
+    margin: 20px;
+	font:16px Arial;
+}
+.pagination a, .pagination strong {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px 12px;
+    text-decoration: none;
+	line-height: 1.5em;
+}
+.pagination a:first-child:hover {
+    background:none;
+    color: #094790;
+}
+.pagination a:last-child:hover {
+    background:none;
+    color: #094790;
+}
+.pagination a:hover {
+    background:url(../img/dolny_psikus.png) no-repeat;
+    color: #094790;
+}
+.pagination a:active {
+}
+.pagination strong {
+	color: #094790;
+	background:url(../img/dolny_psikus.png) no-repeat;
+}
+.tytul {
+	font:18px Arial;
+	font-weight: bold;
+}
+.lorem {
+	font:11px Arial;
+	font-weight: bold;
+}
